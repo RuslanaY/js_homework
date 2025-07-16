@@ -11,8 +11,8 @@ var min = null;
 var max = null;
 
 for (var key in services) {
-  var textPrice = services[key]; // Наприклад: "60 грн"
-  var numberPrice = Number(textPrice.replace(" грн", "")); // Отримуємо число: 60
+  var textPrice = services[key];
+  var numberPrice = Number(textPrice.replace(" грн", ""));
 
  total = total + numberPrice;
 
